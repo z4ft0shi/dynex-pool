@@ -1,16 +1,14 @@
-var parentCoin = "COIN";
+var parentCoin = "DYNEX";
 
 var api = "http://poolhost:8117";
 var poolHost = "poolhost.com";
 
-var email = "support@poolhost.com";
-var telegram = "https://t.me/YourPool";
-var discord = "https://discordapp.com/invite/YourPool";
+var discord = "https://discord.gg/TkB5XpJ2MC";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
 
-var blockchainExplorer = "http://chainradar.com/{symbol}/block/{id}";
-var transactionExplorer = "http://chainradar.com/{symbol}/transaction/{id}";
+var blockchainExplorer = "https://dynex.dyndns/show_block.php?block={id}";
+var transactionExplorer = "https://dynex.dyndns.org/show_transaction.php?tx={id}";
 
 var themeCss = "themes/default.css";
 var defaultLang = "en";
